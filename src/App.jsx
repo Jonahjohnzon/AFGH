@@ -1,16 +1,36 @@
-import { useState } from 'react'
+
 import Navbar from './components/navbar'
 import Home from './components/home/home'
+import Slidemenu from './components/Slidemenu'
+import Slide from './components/Slide'
+import About from './components/about/about'
+import {HashRouter, Routes, Route } from 'react-router-dom'
+import Afrogames from './components/afrogames/afrogames'
+import Comic from './components/comikal/comic'
+import Contact from './components/contact/contact'
+import Admin from './components/admin/admin'
+
 /*
 Head function 
 Code holds head of every components
 */
 function App() {
+
+
   return (
-    <>
+    <HashRouter>
       <Navbar/>
-      <Home/>
-    </>
+      <Slidemenu/>
+      <Slide/>
+    <Routes>
+      <Route  path="/" element={<Home/>}/>
+      <Route path='about' element={<About/>}/>
+      <Route path='/afrogames' element={<Afrogames/>}/>
+      <Route path='/comics' element={<Comic/>}/>
+      <Route path='/contact' element={<Contact/>}/>
+      <Route path='/adminuser' element={<Admin/>}/>
+      </Routes>
+    </HashRouter>
   )
 }
 
