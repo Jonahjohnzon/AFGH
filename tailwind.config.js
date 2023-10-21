@@ -106,7 +106,8 @@ export default {
       blood_r : "#09090B",
       dak: "#0D131B",
       blood: "#090E16",
-      about: "#10171F"
+      about: "#10171F",
+      text:"rgba(255,255,255,0.4)"
     }
   },
   plugins: [

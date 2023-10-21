@@ -4,11 +4,12 @@ import { motion, AnimatePresence } from "framer-motion";
 import { useDispatch, useSelector } from "react-redux";
 import { PiDotsNineFill } from "react-icons/pi";
 import EffectText from "./EffectText";
-import {RiSendPlane2Fill} from 'react-icons/ri'
-import {CgFacebook} from 'react-icons/cg'
-import {AiOutlineTwitter} from 'react-icons/ai'
-import {TiSocialLinkedin} from 'react-icons/ti'
-import {AiFillInstagram} from 'react-icons/ai'
+import { RiSendPlane2Fill } from "react-icons/ri";
+import { CgFacebook } from "react-icons/cg";
+import { AiOutlineTwitter } from "react-icons/ai";
+import { TiSocialLinkedin } from "react-icons/ti";
+import { AiFillInstagram } from "react-icons/ai";
+import { Link } from "react-router-dom";
 const Slidemenu = () => {
   {
     /** Slide menu */
@@ -114,20 +115,53 @@ const Slidemenu = () => {
               </div>
               <form className=" mb-[3vh]">
                 <div className="flex item">
-                  <input type="email" className=" bg-transparent border-solid border-[0.01em] w-full h-14 rounded-s-md border-gray pl-5 font-bold" placeholder="Get News & Updates"/>
-                  <div className=" border-solid border-[0.1em] px-5 flex items-center flex-1 rounded-e-md border-gray"><RiSendPlane2Fill size={30} className=" hover:text-cream cursor-pointer transition-all duration-500"/></div>
+                  <input
+                    disabled
+                    type="email"
+                    className=" bg-transparent border-solid border-[0.01em] w-full h-14 rounded-s-md border-gray pl-5 font-bold"
+                    placeholder="Get News & Updates"
+                  />
+                  <Link to="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSMVkjNhRpxTtRHTZZpnvzKZLqbldttjFqvRJrrTwqGJBZJRBCXQSltdnWBNzWSNBwljpQrM">
+                    <div className=" border-solid border-[0.1em] px-5  h-14 flex items-center flex-1 rounded-e-md border-gray">
+                      <RiSendPlane2Fill
+                        size={30}
+                        className=" hover:text-cream cursor-pointer transition-all duration-500"
+                      />
+                    </div>
+                  </Link>
                 </div>
               </form>
-              <div className=" text-gray my-[3vh]">We send weekly updates and News on Afro Gaming world. New games and gamers</div>
+              <div className=" text-gray my-[3vh]">
+                We send weekly updates and News on Afro Gaming world. New games
+                and gamers
+              </div>
               <div className=" h-[0.1px] opacity-25 w-full bg-gray mb-[3vh]"></div>
               <div className="flex w-[40%] justify-between">
-               <div  className=" hover:text-green cursor-pointer transition-all duration-500"><AiOutlineTwitter size={20}/></div>
-                <div className=" hover:text-green cursor-pointer transition-all duration-500"><CgFacebook size={20}/></div>
-                <div className=" hover:text-green cursor-pointer transition-all duration-500"><TiSocialLinkedin size={20}/></div>
-                <div className=" hover:text-green cursor-pointer transition-all duration-500"><AiFillInstagram size={20}/></div>
+                <Link to="https://twitter.com/Luzeboxlinl">
+                  <div className=" hover:text-green cursor-pointer transition-all duration-500">
+                    <AiOutlineTwitter size={20} />
+                  </div>
+                </Link>
+                <Link to="https://web.facebook.com/jonah.johnzon.5/">
+                  <div className=" hover:text-green cursor-pointer transition-all duration-500">
+                    <CgFacebook size={20} />
+                  </div>
+                </Link>
+                <Link to="https://www.linkedin.com/in/jojome/">
+                  <div className=" hover:text-green cursor-pointer transition-all duration-500">
+                    <TiSocialLinkedin size={20} />
+                  </div>
+                </Link>
+                <Link to="https://www.instagram.com/luze_box/?hl=en">
+                  <div className=" hover:text-green cursor-pointer transition-all duration-500">
+                    <AiFillInstagram size={20} />
+                  </div>
+                </Link>
               </div>
             </div>
-            <div className=" w-full text-gray font-bold text-sm h-[8%] pl-10 flex items-center bg-blood">COPYRIGHT &copy; 2023 BY AFGC </div>
+            <div className=" w-full text-gray font-bold text-sm h-[8%] pl-10 flex items-center bg-blood">
+              COPYRIGHT &copy; 2023 BY AFGC{" "}
+            </div>
           </motion.div>
         </motion.div>
       )}

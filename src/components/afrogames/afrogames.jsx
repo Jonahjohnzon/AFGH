@@ -1,12 +1,12 @@
-import React from 'react'
-import Top from './cp/top'
+import React from "react";
+import Top from "./cp/top";
 
 const Afrogames = () => {
   return (
     <div>
-        <Top/>
+      <Top />
     </div>
-  )
-}
+  );
+};
 
-export default Afrogames
+export default Afrogames;
