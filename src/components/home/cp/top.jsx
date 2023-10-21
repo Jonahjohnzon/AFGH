@@ -33,7 +33,7 @@ const Top = () => {
     },
   };
   return (
-    <div className=" w-full bg-[url('/src/assets/slider_bg.jpg')] flex pt-32 justify-center font-barlow relative">
+    <div className=" w-full bg-[url('/assets/slider_bg.jpg')] flex pt-32 justify-center font-barlow relative">
       <div className=" flex flex-col lg:flex-row  justify-between w-[93%] 2xl:w-[75%] mb-[100px] md:mb-[80px] lg:mb-[]">
         {/*buttons and wordings*/}
         <motion.div
@@ -85,7 +85,7 @@ const Top = () => {
         {/*image*/}
         <div className=" hover:animate-wiggle flex justify-center">
           <img
-            src="/src/assets/slider_img1.png"
+            src="/assets/slider_img1.png"
             className="w-[85%] md:w-[70%] lg:w-[100%]"
           />
         </div>
@@ -100,19 +100,19 @@ const Top = () => {
       */}
       <div>
         <img
-          src="/src/assets/coin.png"
+          src="/assets/coin.png"
           className=" absolute top-40 right-40 opacity-60 animate-pulse scale-95"
         />
         <img
-          src="/src/assets/coin.png"
+          src="/assets/coin.png"
           className=" absolute top-[80%] right-1/2 opacity-60  animate-pulse"
         />
         <img
-          src="/src/assets/coin.png"
+          src="/assets/coin.png"
           className=" absolute top-[60%] left-[20%] opacity-60 animate-pulse scale-75"
         />
         <img
-          src="/src/assets/coin.png"
+          src="/assets/coin.png"
           className=" absolute top-[20%] left-[60%] opacity-60 animate-pulse scale-50"
         />
       </div>

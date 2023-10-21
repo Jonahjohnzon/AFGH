@@ -12,7 +12,7 @@ const Home = () => {
   const [load, setload] = useState(true);
   const [data, setData] = useState("");
   const Data = async () => {
-    const info = await fetch("http://localhost:8000/get?limit=10", {
+    const info = await fetch("https://afgc.onrender.com/get?limit=10", {
       method: "GET",
     });
     try {

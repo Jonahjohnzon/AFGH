@@ -82,7 +82,7 @@ const Filterslide = ({ temp, setSlide }) => {
           {/*logo*/}
           <div className=" flex mb-6">
             <div className=" w-[20%] 2xl:w-1/6 flex items-center">
-              <img src="/src/assets/logo_.png" className=" w-[30%] mr-3" />
+              <img src="/assets/logo_.png" className=" w-[30%] mr-3" />
               <p className=" font-extrabold text-4xl tracking-widest">
                 AF<span className=" text-green">G</span>C
               </p>

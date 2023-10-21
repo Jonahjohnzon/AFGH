@@ -46,11 +46,11 @@ const Display = ({ checker, Creators_Data }) => {
     for (const key in index.cate) {
       if (index.cate[key] == true) {
         if (key == "adventure" || key == "arcade") {
-          arr.push({ cate_title: key, ava: "/src/assets/icon1.png" });
+          arr.push({ cate_title: key, ava: "/assets/icon1.png" });
         } else if (key == "rpg" || key == "puzzle") {
-          arr.push({ cate_title: key, ava: "/src/assets/icon2.png" });
+          arr.push({ cate_title: key, ava: "/assets/icon2.png" });
         } else {
-          arr.push({ cate_title: key, ava: "/src/assets/icon3.png" });
+          arr.push({ cate_title: key, ava: "/assets/icon3.png" });
         }
       }
     }
@@ -117,7 +117,7 @@ const Display = ({ checker, Creators_Data }) => {
 const Third = ({ data }) => {
   const [checker, setChecker] = useState(data[0]._id);
   return (
-    <div className=' bg-[url("/src/assets/area_bg1.jpg")] bg-cover bg-center flex justify-center font-barlow text-white py-40'>
+    <div className=' bg-[url("/assets/area_bg1.jpg")] bg-cover bg-center flex justify-center font-barlow text-white py-40'>
       <div className=" w-full md:w-5/6 flex justify-center">
         <div className=" flex flex-col items-center ">
           <div className="text-green font-bold mb-3">

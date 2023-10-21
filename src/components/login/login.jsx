@@ -16,7 +16,7 @@ export const Login = () => {
           initialValues={{ email: "", password: "" }}
           validationSchema={schema}
           onSubmit={async (a, { resetForm }) => {
-            const data = await fetch("http://localhost:8000/loginad", {
+            const data = await fetch("https://afgc.onrender.com/loginad", {
               method: "POST",
               headers: { "Content-Type": "application/json" },
               body: JSON.stringify(a),

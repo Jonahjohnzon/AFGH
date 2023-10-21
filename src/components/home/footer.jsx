@@ -46,7 +46,7 @@ const Footer = () => {
               <li>
                 {" "}
                 <div className=" w-[200px] flex items-center">
-                  <img src="/src/assets/logo_.png" className=" w-[30%] mr-3" />
+                  <img src="/assets/logo_.png" className=" w-[30%] mr-3" />
                   <p className=" font-extrabold text-2xl xs:text-4xl tracking-widest">
                     AF<span className=" text-green">G</span>C
                   </p>

@@ -29,7 +29,6 @@ const Fourth = ({ data }) => {
   // create an event listener
   useEffect(() => {
     window.addEventListener("resize", handleResize);
-    console.log(data);
   });
   const handleNext = useCallback(() => {
     if (!swipes.current) return;

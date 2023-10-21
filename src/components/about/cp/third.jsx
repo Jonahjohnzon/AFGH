@@ -80,7 +80,7 @@ const Third = () => {
         </div>
         <div className=" w-full flex justify-center">
           <div>
-            <img src="/src/assets/images/s_img1.jpg" />
+            <img src="/assets/images/s_img1.jpg" />
           </div>
         </div>
       </div>

@@ -3,7 +3,7 @@
 @tailwind utilities;
 @font-face {
     font-family: 'Berlin';
-    src: url('/src/assets/font/BRLNSB.TTF');
+    src: url('/assets/font/BRLNSB.TTF');
 }
 
 /* .swiper-scrollbar.swiper-scrollbar-horizontal{bottom: 0; height: 40px;}

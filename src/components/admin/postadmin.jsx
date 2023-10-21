@@ -23,7 +23,7 @@ const Postadmin = ({ setload }) => {
         validationSchema={schema}
         onSubmit={async (a, { resetForm }) => {
           setload(true);
-          const data = await fetch("http://localhost:8000/tpost", {
+          const data = await fetch("https://afgc.onrender.com/tpost", {
             method: "POST",
             headers: {
               "Content-Type": "application/json",
@@ -87,13 +87,13 @@ const Postadmin = ({ setload }) => {
                     value={props.values.avatar}
                     onChange={props.handleChange("avatar")}
                   >
-                    <option value="/src/assets/images/team_1.png">
+                    <option value="/assets/images/team_1.png">
                       Avatar 1
                     </option>
-                    <option value="/src/assets/images/team_2.png">
+                    <option value="/assets/images/team_2.png">
                       Avatar 2
                     </option>
-                    <option value="/src/assets/images/team_3.png">
+                    <option value="/assets/images/team_3.png">
                       Avatar 3
                     </option>
                   </Field>

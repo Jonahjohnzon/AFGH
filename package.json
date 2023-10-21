@@ -1,6 +1,7 @@
 {
-  "name": "sugar",
-  "private": true,
+  "name": "afgc",
+  "private": false,
+  "homepage":"http://afgc.rf.gd/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {

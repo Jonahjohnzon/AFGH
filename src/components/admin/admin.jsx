@@ -64,7 +64,7 @@ const Admin = () => {
               return;
             }
             setload(true);
-            const data = await fetch("http://localhost:8000/post", {
+            const data = await fetch("https://afgc.onrender.com/post", {
               method: "POST",
               headers: {
                 "Content-Type": "application/json",
@@ -143,7 +143,7 @@ const Admin = () => {
                         value={props.values.avatar}
                         onChange={props.handleChange("avatar")}
                       >
-                        <option value="/src/assets/_avatar.png">Avatar</option>
+                        <option value="/assets/_avatar.png">Avatar</option>
                       </Field>
                       <div className=" text-red-500 text-sm">
                         {props.touched.avatar && props.errors.avatar}
@@ -387,7 +387,7 @@ const Admin = () => {
           })}
           onSubmit={async (a, { resetForm }) => {
             setload(true);
-            const data = await fetch("http://localhost:8000/image", {
+            const data = await fetch("https://afgc.onrender.com/image", {
               method: "POST",
               headers: {
                 "Content-Type": "application/json",

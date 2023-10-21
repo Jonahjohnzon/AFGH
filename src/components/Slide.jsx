@@ -57,7 +57,7 @@ const Slide = () => {
                 <div className=" flex items-center w-full justify-between my-[1.8vh]">
                   <div className=" w-full flex items-center">
                     <img
-                      src="/src/assets/logo_.png"
+                      src="/public/assets/logo_.png"
                       className=" w-[30px] mr-3"
                     />
                     <p className=" font-extrabold text-4xl tracking-widest">

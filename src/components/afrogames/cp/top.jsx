@@ -70,7 +70,7 @@ const Top = () => {
   };
   const Data = async () => {
     dispatch(cate(null));
-    const info = await fetch(`http://localhost:8000/get?limit=${limit}`, {
+    const info = await fetch(`https://afgc.onrender.com/get?limit=${limit}`, {
       method: "GET",
     });
     try {

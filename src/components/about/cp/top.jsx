@@ -23,7 +23,7 @@ const Top = () => {
     },
   };
   return (
-    <div className=" bg-[url('/src/assets/about_bg1.jpg')] bg-cover bg-center w-full text-white font-barlow relative">
+    <div className=" bg-[url('/assets/about_bg1.jpg')] bg-cover bg-center w-full text-white font-barlow relative">
       <div className=" flex justify-center pt-32 py-16">
         <motion.div
           variants={anim}
@@ -46,7 +46,7 @@ const Top = () => {
             </div>
           </div>
           <div className=" hidden lg:block hover:animate-wiggle">
-            <img src="/src/assets/images/web_img01.png" />
+            <img src="/assets/images/web_img01.png" />
           </div>
         </motion.div>
       </div>

@@ -14,7 +14,7 @@ const Second = () => {
           <div className=" flex lg:w-full justify-end">
             <div className=" relative">
               <div className=" w-[90px] h-[90px] 2xl:w-[137px] 2xl:h-[137px] relative ml-[30px] mr-[50px] my-0 animate-[spins_12s_linear_infinite] transition-all cursor-pointer">
-                <img src="/src/assets/images/circle.svg" />
+                <img src="/assets/images/circle.svg" />
                 <svg
                   class=" overflow-visible absolute w-20 h-20 -translate-x-2/4 -translate-y-2/4 rotate-[-33deg] left-2/4 top-2/4 lg:w-[60px] lg:h-[60px]"
                   xmlns="http://www.w3.org/2000/svg"
@@ -47,10 +47,10 @@ const Second = () => {
               </div>
             </div>
             <div className=" md:mr-6 h-80 md:h-full overflow-hidden  md:mb-0 mb-16">
-              <img src="/src/assets/images/mask_img1.jpg" className=" " />
+              <img src="/assets/images/mask_img1.jpg" className=" " />
             </div>
             <div className=" sm:h-80  md:h-full overflow-hidden mb-2 md:md-0">
-              <img src="/src/assets/images/mask_img2.jpg" />
+              <img src="/assets/images/mask_img2.jpg" />
             </div>
 
             <div className=" absolute z-30 w-[20%] right-0 h-20 top-0 bg-about">
