@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP_HOST} (www\.)?afgc.rf.gd
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]

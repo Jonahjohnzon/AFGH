@@ -5,6 +5,9 @@
     font-family: 'Berlin';
     src: url('/assets/font/BRLNSB.TTF');
 }
+.swiper{
+    width: 100%;
+}
 
 /* .swiper-scrollbar.swiper-scrollbar-horizontal{bottom: 0; height: 40px;}
 .swiper-scrollbar-drag{background: none;}

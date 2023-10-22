@@ -54,11 +54,11 @@ const Fourth = ({ data }) => {
           </div>
         </div>
         <div className=" w-[98%] md:w-[60%] p-10 md:pt-32 mb-10 text-white ">
-          <div className=" flex">
+          <div className=" flex w-full">
             <Swiper
               ref={swipes}
               modules={[Navigation, Pagination, Scrollbar]}
-              slidesPerView={view}
+              slidesPerView={4}
               spaceBetween={10}
               pagination={{
                 clickable: true,
